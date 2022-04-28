@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+div {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+
+div#div1 {
+    background-color: aliceblue;
+    background-clip: border-box;
+}
+
+div#div2 {
+    background-color: cadetblue;
+    border: 10px dotted black;
+    background-clip: padding-box;
+}
+
+div#div3 {
+    background-color: thistle;
+    background-clip: content-box;
+}
