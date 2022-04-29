@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+div#div1 {
+    background-color: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: red;
+    border-right: blue;
+    border-bottom: green;
+    border-left: yellow;
+    border-style: solid;
+    border-width: 10px;
+    margin-bottom: 25px;
+}
+
+
+div#texto {
+    background-image: linear-gradient(to right, orange, red);
+    font-size: 2em;
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: normal;
+}

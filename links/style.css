@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+div {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#a1:link {
+    background-color: aliceblue;
+}
+
+#a2:visited {
+    background-color: black;
+    color: blue;
+}
+
+#a3:active {
+    background-color: black;
+}
+
+#a4:hover {
+    border: 1px solid black;
+    background-color: lightcoral;
+    color: aliceblue;
+    transition-delay: 50ms;
+}
+
+#a4:active {
+    background-color: aliceblue;
+    color: lightcoral;
+}
