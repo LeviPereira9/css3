@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+div {
+    display: table-cell;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ol, ul, li {
+    border: 1px solid black;
+}
+
+ol {
+    display: table;
+}    
+
+ul {
+    display: table-row;
+}
+
+li {
+    display: table-cell;
+}

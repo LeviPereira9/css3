@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+section {
+    border: 1px solid red;
+    height: 200px;
+}
+
+#s1 {
+    display: flex;
+/*     flex-wrap: wrap; */
+/*     justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; */
+}
+
+div {
+    border: 1px solid green;
+    background-color: aliceblue;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+div:hover {
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+div:active {
+    background-color: aqua;
+    color: black;
+}
+
+#d1 {
+    order: 1;
+}
+
+#d2 {
+    order: 2;
+}
+
+#d3 {
+    order: 3;
+}
+
+#d4 {
+    order: 4;
+}
+
+#d5 {
+    order: 5;
+}
+
+#d6 {
+    order: 6;
+}

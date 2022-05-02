@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+ol, ul {
+    list-style: '\1f975\00a0\00a0' inside;
+
+    /* list-style-type: '\1F975\00A0\00A0' ; */
+    border: .5px solid black;
+}
+
+li {
+    /* list-style-position: inside; */
+    border: .5px solid black;
+}

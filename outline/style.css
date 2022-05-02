@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+#div1 {
+    background-color: aliceblue;
+    outline-color: red;
+    outline-style: dashed;
+    outline-width: 20px;
+    outline-offset: 20px;
+}
+
+#div2 {
+    background-color: aquamarine;
+}
+
+#div3 {
+    background-color: thistle;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+div, span {
+    border: 1px solid black;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+
+#div1 {
+    display: inline-block;
+}
+
+#span1 {
+    display: inline-block;
+}
+
+#div2 {
+    display: inline-block;
+}
+
+#span2 {
+    display: inline-block;
+}
