@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 700px;
+    height: 500px;
+    border: 1px solid green;
+    background-color: aliceblue;
+}
+
+#d0 {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#d1, #d2 {
+    width: 300px;
+    height: 150px;
+}
+
+#d1 {
+    position: static;
+    z-index: 1;
+}
+
+#d2 {
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+img {
+    border: 1px solid black;
+    border-radius: 50%;
+/*     width: 200px;
+    height: 200px; */
+}
+
+
+#img1 {
+    float: right;
+}
+
+.cle {
+    clear: right;
+}
