@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#d1 {
+    width: 300px;
+    height: 200px;
+    border: 10px solid black;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#d2 {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+}

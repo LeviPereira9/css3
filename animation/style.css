@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+
+@keyframes fundo {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 155px;
+        top: 155px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+
+    75% {
+        left: 200px;
+        top: 50px;
+    }
+
+    100% {
+        left: 155px;
+        top: 10px;
+    }
+
+}
+
+
+/* @keyframes fundo01 {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: lightgray;
+    }
+
+    50% {
+        background-color: gray;
+    }
+
+    75% {
+        background-color: rgb(56, 55, 55);
+    }
+
+    100% {
+        background-color: black;
+        color: white;
+    }
+} */
+
+@keyframes mensagem {
+    0% {
+
+    }
+
+    100% {
+        border: 5px solid black;
+    }
+}
+
+body {
+    animation-name: fundo01;
+    animation-duration: 800ms;   
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+
+p {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    animation-name: fundo, mensagem;
+    animation-fill-mode: both;
+    animation-delay: 1s, 1s;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+}
