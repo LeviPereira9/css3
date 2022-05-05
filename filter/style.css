@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+img {
+    margin: 10px;
+}
+
+#img1 {
+    filter: grayscale(88%)
+}
+
+#img2 {
+    filter: blur(3px);
+}
+
+#img3 {
+    filter: brightness(110%);
+}
+
+#img4 {
+    filter: contrast(0.5);
+}

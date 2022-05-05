@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+nav {
+    float: left;
+    margin: 10px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 5px 30px;
+    margin-bottom: 5px;
+    background-color: tomato;
+    color: white;
+    border-radius: 15px;
+}
+
+nav li:hover {
+    background-color: darkorange;
+    color: tomato;
+    cursor: pointer;
+}
+
+article {
+    columns: 1;
+}
+
+li.link {
+    cursor: pointer;
+    line-height: 1.5em;
+}
+
+
+/* Samsung Galaxy S I and II */
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    nav { 
+        float: none;
+        background-color: orangered;
+        margin: 0px 0px 15px 0px;
+        padding: 10px;
+        box-shadow: 0px 2px 20px black;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    nav li {
+        width: fit-content;
+        padding: 10px 20px;
+        margin: 10px;
+    }
+
+    article {
+        columns: none;
+        margin: 0px 20px;
+    }
+}
+
+
+/* iPad generico que inventei agora, nem chequei a lista.*/
+@media screen and (min-width: 501px) and (max-width:800px) {
+
+    nav { 
+        float: right;
+    }
+
+    section {
+        margin-left: 20px;
+    }
+   
+    #d1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    #d2 {
+        margin-right: 25px;
+    }
+}
