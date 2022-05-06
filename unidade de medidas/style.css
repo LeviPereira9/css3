@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+
+p#fonte1 {
+    font-size: 25px;
+    /* 16px é o padrão */
+}
+
+#fonte2 {
+    font-size: 2em;
+    /* 1em é padrão */
+/*     border: 1em solid black; */
+}
+
+#fonte3 {
+    font-size: 1rem;
+    /* 1rem é padrão */
+}
+
+#fonte3 {
+    font-size: 100%;
+}
+
+#fonte4 {
+    font-size: 4vw;
+}
+
+#fonte5 {
+    font-size: 18px;
+}
+
+#fonte6 {
+    font-size: 4vh;
+}
+
+#fonte7 {
+    font-size: 4ex;
+}
+
+#fonte8 {
+    font-size: .5cm;
+}
+
+#fonte9 {
+    font-size: 5mm;
+}
+
+#fonte10 {
+    font-size: 2pc;
+}
+
+#fonte11 {
+    font-size: .2in;
+}
+
+#fonte12 {
+    font-size: 25pt;
+}

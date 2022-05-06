@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+html {
+    color: red;
+}
+
+body {
+    color: green;
+
+}
+
+div {
+    color: blue;
+}
+
+h1,p {
+    color: initial;
+}
